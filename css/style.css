@@ -24,6 +24,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 0 10px;
+  border-bottom: 1px solid seashell;
 }
 
 .logo img {
@@ -75,4 +76,68 @@ body {
 
 /* -----------------------
         TEA OF THE MONTH
+----------------------- */
+.featured {
+  width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* justify-content: center; */
+}
+
+.featured-text h2 {
+  margin-bottom: 10px;
+}
+
+.featured-images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.featured-img {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.featured-img img {
+  width: 300px;
+  height: 200px;
+}
+
+/* -----------------------
+        LOCATIONS
+----------------------- */
+.locations {
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/img-locations-background.webp");
+  background-position: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.locations-text {
+  display: flex;
+  gap: 40px;
+}
+
+.location {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+}
+
+/* -----------------------
+        FOOTER
 ----------------------- */
