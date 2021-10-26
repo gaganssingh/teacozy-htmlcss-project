@@ -14,3 +14,65 @@ body {
   opacity: 0.9;
   text-align: center;
 }
+
+/* -----------------------
+        HEADER
+----------------------- */
+.header {
+  height: 69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-link a:link,
+.nav-link a:visited {
+  color: inherit;
+  opacity: 0.9;
+}
+
+/* -----------------------
+        HERO
+----------------------- */
+.mission {
+  margin: 0 auto;
+  height: 700px;
+  width: 1200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/img-mission-background.webp");
+  position: relative;
+}
+
+.mission-text {
+  width: 100%;
+  padding: 10px 0;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mission-text h4 {
+  color: seashell;
+  opacity: 0.9;
+}
+
+/* -----------------------
+        TEA OF THE MONTH
+----------------------- */
